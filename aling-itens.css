@@ -39,3 +39,15 @@ h1{
 .item:first-child{
     padding-top: 20px;
 }
+.column{
+    flex-direction: column;
+}
+.alinhamento-central .item{
+    flex: 0;
+    padding: 10px;
+}
+.alinhamento-central{
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
